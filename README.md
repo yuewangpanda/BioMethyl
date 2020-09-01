@@ -16,7 +16,7 @@ DNA methylation data of 10 ER+ and 10 ER- TCGA breast cancer samples are provide
 ```{r}
 data(MethData)
 ```
-##BioMethyl Usage
+## BioMethyl Usage
 (1) **DNA methylation data pre-process.**
 BioMethyl removes CpG sites that have missing values in more than half samples and imputes the rest missing values by integrating the [ENmix](https://bioconductor.org/packages/release/bioc/html/ENmix.html) R package, with default parameters.
 ```{r}
