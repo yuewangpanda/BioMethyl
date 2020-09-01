@@ -8,6 +8,7 @@ When using new DNA methylation data as input, the BioMethyl infers samples' gene
 
 ## Installation
 1. Clone the package from GitHub using git clone https://github.com/yuewangpanda/BioMethyl.git package_path. An alternative way to download the package is from [here](https://morgan1.dartmouth.edu/~f002nfh/BioMethyl/). <br/>
+If you are familoar with R, you can download the R scripts from the R/ folder above and run the example with your own data. <br/>
 2. Open R and install the package using ```install.packages("package_path/BioMethyl_1.1.tar.gz", repos = NULL)```.<br/>
 3. ```library("BioMethyl")```.<br/>
 
