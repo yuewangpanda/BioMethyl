@@ -4,6 +4,8 @@
 [BioMethyl](https://academic.oup.com/bioinformatics/advance-article/doi/10.1093/bioinformatics/btz137/5364266) is an R package for Biological interpretation of DNA methylation data in the TCGA cancers context. 
 For each cancer type, we trained linear regression models for each gene to calculate the associations between its gene expression and its covered CpG sites and recorded the associations (weights) in our BioMethyl.
 When using new DNA methylation data as input, the BioMethyl infers samples' gene expression which can be applied to gene set enrichment analysis (GSEA) and gene set analysis (Fisher's exact test).
+
+You can download the package from https://github.com/yuewangpanda/BioMethyl/blob/ffcba473a3b12a159ce2dfdaf63c4f63d84b40ef/BioMethyl_1.1.tar.gz.
  
 
 ## Installation
